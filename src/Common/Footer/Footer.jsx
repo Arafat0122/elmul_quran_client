@@ -28,7 +28,7 @@ const Footer = () => {
                     <ul className="text-sm space-y-3 text-[#FAF9F6]/90">
                         <li className="flex items-center gap-2">
                             <FiPhone className="text-[#C3A753]" />
-                            <span>+20 150 569 6208</span>
+                            <span>+20 150 828 1722</span>
                         </li>
                         <li className="flex items-center gap-2">
                             <FiMail className="text-[#C3A753]" />
@@ -46,7 +46,7 @@ const Footer = () => {
                     <h3 className="text-xl font-bold text-[#C3A753] mb-4">যোগ দিন</h3>
                     <p className="text-sm mb-4">ক্লাসে অংশ নিতে WhatsApp এ বার্তা পাঠান</p>
                     <a
-                        href="https://wa.me/201505696208?text=আমি কুরআন শেখার কোর্সে ভর্তি হতে চাই।"
+                        href="https://wa.me/201508281722?text=আমি কুরআন শেখার কোর্সে ভর্তি হতে চাই।"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block bg-[#C3A753] text-[#FAF9F6] px-6 py-2 rounded-full font-semibold text-sm hover:bg-emerald-700 transition shadow"

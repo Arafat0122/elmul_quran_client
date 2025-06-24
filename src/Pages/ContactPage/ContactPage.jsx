@@ -21,7 +21,7 @@ const ContactPage = () => {
                         </li>
                         <li className="flex items-start gap-3">
                             <FaPhoneAlt className="text-[#C3A753] text-xl mt-1" />
-                            <a className="hover:underline">+20 150 569 6208</a>
+                            <a className="hover:underline">+20 150 828 1722</a>
                         </li>
                         <li className="flex items-start gap-3">
                             <FaEnvelope className="text-[#C3A753] text-xl mt-1" />
@@ -29,8 +29,8 @@ const ContactPage = () => {
                         </li>
                         <li className="flex items-start gap-3">
                             <FaWhatsapp className="text-[#C3A753] text-xl mt-1" />
-                            <a href="https://wa.me/201505696208" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                                WhatsApp: +20 150 569 6208
+                            <a href="https://wa.me/201508281722" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                                WhatsApp: +20 150 828 1722
                             </a>
                         </li>
                     </ul>

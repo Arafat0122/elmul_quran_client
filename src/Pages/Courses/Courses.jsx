@@ -14,7 +14,7 @@ const courses = [
             { icon: <FiCheckCircle />, text: "নাজরানা, মাসলা মাসায়েল" },
             { icon: <MdOutlineSupportAgent />, text: "২৪/৭ Whatsapp সাপোর্ট" },
         ],
-        tag: "!",
+        tag: "সবার জন্য",
     },
     {
         title: "সহিহ কোরআন শিক্ষা",
@@ -38,13 +38,13 @@ const courses = [
             { icon: <FiBookOpen />, text: "মাখরাজ, তাজবীদ, সিফাত" },
             { icon: <MdOutlineSupportAgent />, text: "২৪/৭ Whatsapp সাপোর্ট" },
         ],
-        tag: "!",
+        tag: "নতুন কোর্স",
     },
 ];
 
 const Courses = () => {
     const handleWhatsApp = (course) => {
-        const url = `https://wa.me/201505696208?text=${encodeURIComponent(
+        const url = `https://wa.me/201508281722?text=${encodeURIComponent(
             `আমি ${course} কোর্সে ভর্তি হতে আগ্রহী।`
         )}`;
         window.open(url, "_blank");
@@ -81,7 +81,7 @@ const Courses = () => {
 
                             {course.tag && (
                                 <span
-                                    className="text-base px-3 py-1 rounded-full mb-4 font-hindSiliguri"
+                                    className="text-base px-3 py-1 rounded-full mb-4 font-hindSiliguri w-fit mx-auto"
                                     style={{
                                         backgroundColor: "#C3A753",
                                         color: "#FAF9F6",

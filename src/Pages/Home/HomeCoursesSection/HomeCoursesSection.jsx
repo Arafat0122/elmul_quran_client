@@ -47,7 +47,7 @@ const courses = [
 
 const HomeCoursesSection = () => {
     const handleWhatsApp = (courseTitle) => {
-        const url = `https://wa.me/201505696208?text=${encodeURIComponent(
+        const url = `https://wa.me/201508281722?text=${encodeURIComponent(
             `আমি ${courseTitle} কোর্সে ভর্তি হতে আগ্রহী।`
         )}`;
         window.open(url, "_blank");
@@ -64,7 +64,7 @@ const HomeCoursesSection = () => {
                     {courses.map((course, index) => (
                         <div
                             key={index}
-                            className="bg-white border border-[#C3A753] rounded-xl p-6 shadow-lg flex flex-col transition hover:-translate-y-1 hover:shadow-xl duration-300"
+                            className="bg-white border border-[#C3A753] rounded-xl p-6 shadow-lg flex flex-col transition hover:-translate-y-1 hover:shadow-xl duration-300 w-96 lg:w-full mx-auto"
                         >
                             <img
                                 src={course.image}
