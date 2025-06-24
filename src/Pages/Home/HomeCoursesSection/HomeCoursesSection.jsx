@@ -60,11 +60,11 @@ const HomeCoursesSection = () => {
                     আমাদের জনপ্রিয় কোর্সসমূহ
                 </h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     {courses.map((course, index) => (
                         <div
                             key={index}
-                            className="bg-white border border-[#C3A753] rounded-xl p-6 shadow-lg flex flex-col transition hover:-translate-y-1 hover:shadow-xl duration-300 w-96 lg:w-full mx-auto"
+                            className="bg-white border border-[#C3A753] rounded-xl p-6 shadow-lg flex flex-col transition hover:-translate-y-1 hover:shadow-xl duration-300 w-72 md:w-96 lg:w-full mx-auto"
                         >
                             <img
                                 src={course.image}

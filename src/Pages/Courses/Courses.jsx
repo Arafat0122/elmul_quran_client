@@ -64,7 +64,7 @@ const Courses = () => {
                     {courses.map((course, idx) => (
                         <div
                             key={idx}
-                            className="bg-white rounded-xl shadow-lg p-6 flex flex-col text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl border border-[#C3A753] w-96 lg:w-full mx-auto"
+                            className="bg-white rounded-xl shadow-lg p-6 flex flex-col text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl border border-[#C3A753] w-72 md:w-96 lg:w-full mx-auto"
                         >
                             <img
                                 src={course.image}
